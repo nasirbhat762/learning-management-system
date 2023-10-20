@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .nav {
+            padding: 20px 40px 20px 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        ul li {
+            display: inline;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            font-size: larger;
+            margin: 0px 5px 0px 5px;
+        }
+
+        .image-form {
+            gap: 100px;
+            padding: 20px 40px 20px 40px;
+            margin: 10px 40px;
+
+
+        }
+
+        .blue {
+            background-color: #001d41;
+            color: white;
+            border-bottom-right-radius: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div>
+            <h3><i class="fa-brands fa-square-pied-piper fa-xl"></i>LMS</h3>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">About Us</a> </li>
+                <li> <a href="#"> Our Services</a></li>
+                <li> <a href="">Our Process</a></li>
+                <li> <a href="#">Our Projects</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li> <a class="btn btn-warning" href="#"> Get a quote</a> </li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="image-form  d-flex justify-content-between">
+        <div class="image">
+            <img src="https://go.ipixtechnologies.com/img/lms-side2.png" alt="" width="700px">
+        </div>
+        <div class="form mx-3">
+            <div class="col-md-7 col-lg-8">
+                <h4 class="mb-3">Request a demo</h4>
+                <form class="needs-validation" novalidate="">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label for="firstName" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                            <div class="invalid-feedback">
+                                Valid first name is required.
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label for="lastName" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-12">
+                            <label for="email" class="form-label">Email <span
+                                    class="text-body-secondary">(Optional)</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                            <div class="invalid-feedback">
+                                Please enter a valid email address for shipping updates.
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <label for="address" class="form-label">Contact number</label>
+                            <input type="tel" class="form-control" id="address" placeholder="e.g 9622777384"
+                                required="">
+                            <div class="invalid-feedback">
+                                Please enter your shipping address.
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-12">
+                            <label for="country" class="form-label">Select Budget</label>
+                            <select class="form-select" id="budget" required="">
+                                <option value="">below $5000</option>
+                                <option>$5000- $10000</option>
+                                <option>$10000- $15000</option>
+                                <option>$15000- $20000</option>
+                                <option>above $20000</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid country.
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <hr class="my-4">
+
+                    <button class="w-100 btn btn-info btn-lg" type="submit">Get a Quote</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="d-flex flex-row justify-content-between">
+        <div class="blue p-5">
+            <h1>Create better educational experience anytime anywhere with advanced LMS</h1>
+            <p> With a rich history, we offer customizable learning software that comes with a wide range of services
+                and our proficient team makes sure you get what you are looking for, whatever your needs are. IPIX LMS
+                is the premier learning management system to suit all your learning needs, proficient service and
+                support. Our adept team ensures that you get what you are looking for.</p>
+            <a class="btn btn-info" href="#"> Get a free demo</a>
+        </div>
+        <div class="image">
+            <img src="https://go.ipixtechnologies.com/img/dashboard.png" alt="">
+        </div>
+    </div>
+    <hr>
+    <div class="my-5 ">
+        <h1 class="text-center">Learning App Development</h1>
+        <h6 class="text-center">Customized tools to build and manage feature-rich, flexible and secure platform to
+            refine edtech efforts
+        </h6>
+        <div class="my-3 d-flex flex-row justify-content-center flex-wrap gap-4">
+            <div class="card text-center mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <i class="fa-solid fa-graduation-cap fa-2xl"></i>
+                    <h5 class="card-title">Course Taking</h5>
+                    <p class="card-text">The seamless flow of content lets students understand and choose between the
+                        lessons or courses for an uninterrupted learning experience.</p>
+
+                </div>
+            </div>
+
+            <div class="card text-center mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <i class="fa-brands fa-discourse fa-2xl"></i>
+                    <h5 class="card-title">Course Listing Page</h5>
+                    <p class="card-text">Get dedicated course listing pages, efficiently manage and update the course
+                        content using your WordPress-powered website.</p>
+
+                </div>
+            </div>
+
+            <div class="card text-center mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <i class="fa-solid fa-gears fa-2xl"></i>
+                    <h5 class="card-title">Customization</h5>
+                    <p class="card-text">Accommodate easy customization features to make changes in the font, color, app
+                        branding, and much more to enhance appearance.</p>
+
+                </div>
+            </div>
+
+            <div class="card text-center mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <i class="fa-solid fa-circle-question fa-2xl"></i>
+                    <h5 class="card-title">Tests and Quizzes</h5>
+                    <p class="card-text">Create the quizzes, and assessments with multiple question formats like
+                        interactive MCQ(Multiple Choice Questions) and True/False assessments.</p>
+
+                </div>
+            </div>
+
+            <div class="card text-center mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <i class="fa-solid fa-address-card fa-2xl"></i>
+                    <h5 class="card-title">Membership and Payments</h5>
+                    <p class="card-text">Create membership plans, offer one-time purchases and activate online payments.
+                        You may also use the app to directly access them.</p>
+
+                </div>
+            </div>
+
+            <div class="card text-center mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <i class="fa-solid fa-file-video fa-2xl"></i>
+                    <h5 class="card-title">Lesson Alignment</h5>
+                    <p class="card-text">The program distinguishes and presents each lesson of your course that ranges
+                        from live stream, video, text, slides, etc.</p>
+
+                </div>
+            </div>
+
+            <div class="card text-center mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <i class="fa-solid fa-user-group fa-2xl"></i>
+                    <h5 class="card-title">User-friendly</h5>
+                    <p class="card-text">The students can emphasize their learning activities using simple features for
+                        navigation and through an intuitive User Interface.</p>
+
+                </div>
+            </div>
+
+            <div class="card text-center mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <i class="fa-solid fa-user fa-2xl"></i>
+                    <h5 class="card-title">Account Pages</h5>
+                    <p class="card-text">Unique profile page assigned to each student which they can use to edit, manage
+                        and update the personal information.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <div class="px-5">
+        <h1 class="text-center">Future-Proof Technology Stack to Fuel Your
+            Online Learning Strategy</h1>
+        <div class="py-5 d-flex flex-row justify-content-between">
+            <img src="https://go.ipixtechnologies.com/img/oorg.png" alt="">
+            <img src="https://go.ipixtechnologies.com/img/oorg.png" alt="">
+            <img src="https://go.ipixtechnologies.com/img/oorg.png" alt="">
+            <img src="https://go.ipixtechnologies.com/img/oorg.png" alt="">
+        </div>
+    </div>
+    <hr>
+    <div class="py-5">
+        <h1 class="text-center">What Our Clients Say</h1>
+        <h6 class="text-center">Listen to the experiences of our valuable customers after switching to IPIX LMS for an
+            elevated educational experience.</h6>
+    </div>
+    <hr>
+    <div class="d-flex flex-row justify-content-between gap-3 px-5">
+        <div>
+            <h1>See Open LMS in Action!</h1>
+            <p>A live demo is a great way to speed on the basics and also learn about our more popular features. It’s
+                also great opportunity to ask questions and get answers.</p>
+            <h3>Mobile
+            </h3>
+            <p>+91 9544800123</p>
+            <p>+971 506525109</p>
+            <h3><b>Email</b></h3>
+            <p>abc@gmail.com</p>
+            <address>
+                <h3>UAE</h3>
+                <span>15th Floor, Lake Central Business Bay
+                    Al Abraj Street, P.O.Box 55535
+                    Dubai, UAE</span>
+            </address>
+
+            <address>
+                <h3>INDIA</h3>
+                <span>Tech Services Pvt Ltd.
+                    KSITIL Special Economic Zone,
+                    Unit No 14, 1st Floor, Sahya Building
+                    Govt Cyber Park, Nellikode (PO)
+                    Calicut - 673016, Kerala, India</span>
+            </address>
+
+        </div>
+        <div class="form mx-3">
+            <div class="col-md-7 col-lg-8">
+                <h4 class="mb-3">Request a demo</h4>
+                <form class="needs-validation" novalidate="">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label for="firstName" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                            <div class="invalid-feedback">
+                                Valid first name is required.
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label for="lastName" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-12">
+                            <label for="email" class="form-label">Email <span
+                                    class="text-body-secondary">(Optional)</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                            <div class="invalid-feedback">
+                                Please enter a valid email address for shipping updates.
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <label for="address" class="form-label">Contact number</label>
+                            <input type="tel" class="form-control" id="address" placeholder="e.g 9622777384"
+                                required="">
+                            <div class="invalid-feedback">
+                                Please enter your shipping address.
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-12">
+                            <label for="country" class="form-label">Select Budget</label>
+                            <select class="form-select" id="budget" required="">
+                                <option value="">below $5000</option>
+                                <option>$5000- $10000</option>
+                                <option>$10000- $15000</option>
+                                <option>$15000- $20000</option>
+                                <option>above $20000</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid country.
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <label for="firstName" class="form-label">What's your project for?</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                            <div class="invalid-feedback">
+                                Valid first name is required.
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <hr class="my-4">
+
+                    <button class="w-100 btn btn-info btn-lg" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="my-5 d-flex flex-row gap-5 px-5">
+        <div>
+            <address>
+                KSITIL Special Economic Zone
+                Sahya Building, Govt. Cyber Park, Nellikode (PO),
+                Calicut - 673016, Kerala, India
+                +91 9544 800 204
+            </address>
+        </div>
+        <div>
+            <h1 class="text-center">Solutions</h1>
+            <ul>
+                <li>Customer Training</li> <br>
+                <li>Mobile Workforce</li> <br>
+                <li>Employee Onboarding</li> <br>
+                <li>Compliance Training</li> <br>
+                <li>Member Training & More</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Features</h1>
+            <ul>
+                <li>Gamification</li> <br>
+                <li>Mobility</li> <br>
+                <li>Advanced reporting</li> <br>
+                <li>Extensions</li> <br>
+                <li>White labeling & More</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Support</h1>
+            <ul>
+                <li>Forum Support</li> <br>
+                <li>Help & FAQ</li> <br>
+                <li>Contact Us</li> <br>
+                <li>Pricing and plans</li> <br>
+                <li>Cookies Policy</li>
+            </ul>
+        </div>
+        <div>
+            <img src="https://go.ipixtechnologies.com/img/birdge-iso.png" alt="">
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <p class="px-5">© 2023 IPIX LMS. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4ee59e8d28.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
